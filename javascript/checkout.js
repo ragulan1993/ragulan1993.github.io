@@ -121,7 +121,7 @@ function fieldValidation(isCardValid, isCvvValid, isValidateExpiry) {
                 totalAmount = 0;
                 totalByItem = 0;
                 alert("Thanks for your order!");
-                window.location.href = "/Ragulan";
+                window.location.href = window.location.origin;
                 return true
             }
         }
