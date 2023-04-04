@@ -1,0 +1,66 @@
+/* @author: Kulasingham Ragulan */
+/* Css style for body & html */
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Css style for background image*/
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('../images/sports.jpg');
+    min-height: 100%;
+}
+
+/* Css style for logo */
+.logo-splash {
+    text-align: -webkit-center;
+    display: contents !important;
+}
+
+.img-size {
+    width: 25%;
+}
+
+/* Css style for group members */
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    width: 100%;
+}
+
+.col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+}
+
+h2 {
+    color: black;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}

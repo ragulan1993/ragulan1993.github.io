@@ -1,0 +1,26 @@
+/* @author: Kulasingham Ragulan */
+/* styling for parent div */
+.main {
+    background: #fff;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+    top: 90px;
+}
+
+/* styling for content */
+.cricket-img{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cricket-description {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: -.2px;
+}
+

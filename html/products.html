@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- Web page created by Kulasingham Ragulan - Kulasingham.20220768@iit.ac.lk Web design and Development Course work -->
+<html lang="en">
+
+<head>
+    <title>MySports</title>
+    <meta charset="UTF-8">
+    <!-- Link css files and libraries for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+
+<body>
+    <!-- Navigation panel -->
+    <div class="topnav">
+        <div class="row logo">
+            <div class="col-25">
+                <a href="pageeditor.html">K.Ragulan</a>
+            </div>
+            <div class="col-50">
+                <img src="../images/logo-l.png" alt="">
+            </div>
+            <div class="col-25">
+
+            </div>
+        </div>
+
+        <div class="row nav-tab">
+            <div class="col-50">
+                <a href="home.html">Home</a>
+                <a href="#contact">Comments</a>
+                <a class="active" href="products.html">Shop</a>
+                <a href="#about">Quiz</a>
+                <a href="#about">Site Map</a>
+                <a href="#about">About Us</a>
+            </div>
+            <div class="col-50">
+                <div class="cart-btn">
+                    <i id="cart" class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    <span class="cart-quantity">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main">
+        <!-- Cart list -->
+        <div class="cart-modal-overlay">
+            <div class="cart-modal">
+                <i id="close-btn" class="fas fa-times"></i>
+                <h1 class="cart-is-empty">Cart is empty</h1>
+
+                <div class="product-rows">
+                </div>
+                <div class="total">
+                    <h1 class="cart-total">TOTAL</h1>
+                    <span class="total-price">$0</span>
+                    <div class="cart-buttons">
+                        <button class="purchase-btn">Place Your Order</button>
+                        <button class="clear-btn">Clear Your Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--  products  -->
+        <div class="items-container">
+            <div class="card">
+                <img class="product-image" src="../images/image-1.svg" alt="">
+                <button class="add-to-cart" id="1">Add to cart</button>
+                <span class="product-name">Football</span>
+                <span class="product-price">$60</span>
+            </div>
+            <div class="card">
+                <img class="product-image" src="../images/image-2.svg" alt="">
+                <button class="add-to-cart" id="2">Add to cart</button>
+                <span class="product-name">Cricket Bat</span>
+                <span class="product-price">$40</span>
+            </div>
+            <div class="card">
+                <img class="product-image" src="../images/image-3.svg" alt="">
+                <button class="add-to-cart" id="3">Add to cart</button>
+                <span class="product-name">Hockey stick</span>
+                <span class="product-price">$50</span>
+            </div>
+            <div class="card">
+                <img class="product-image" src="../images/image-4.svg" alt="">
+                <button class="add-to-cart" id="4">Add to cart</button>
+                <span class="product-name">Net ball</span>
+                <span class="product-price">$30</span>
+            </div>
+            <div class="card">
+                <img class="product-image" src="../images/image-5.svg" alt="">
+                <button class="add-to-cart" id="5">Add to cart</button>
+                <span class="product-name">Batting Gloves</span>
+                <span class="product-price">$20</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- link javascript files -->
+    <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="../javascript/products.js"></script>
+</body>
+
+</html>

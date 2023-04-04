@@ -1,0 +1,65 @@
+/* @author: Kulasingham Ragulan */
+Body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+}
+
+.col-50 {
+    -ms-flex: 50%;
+    flex: 50%;
+}
+
+.col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.student {
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+}
+
+.student-main {
+    width: 100%;
+    border-bottom: 1px solid #333;
+    margin-top: 10px;
+    border-top: 1px solid #333;
+}
+
+.summary {
+    width: 100%;
+    height: fit-content;
+    background-color: #333;
+    margin-top: 10px;
+}
+
+.common-margin {
+    margin: 20 0 20 0;
+}
+
+.common-content {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.reference-margin {
+    margin-bottom: 30px;
+}
